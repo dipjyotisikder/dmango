@@ -25,7 +25,9 @@ SECRET_KEY = 'v3f9e=*8z^)_g)e4&_m1@ktj+@!mn!)xqm&)86#)t%isrmx_2&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "shielded-garden-53067.herokuapp.com"
+]
 
 
 # Application definition
