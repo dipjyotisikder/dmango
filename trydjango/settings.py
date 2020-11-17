@@ -23,7 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'v3f9e=*8z^)_g)e4&_m1@ktj+@!mn!)xqm&)86#)t%isrmx_2&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
+# DEBUG = True
 
 ALLOWED_HOSTS = [
     "shielded-garden-53067.herokuapp.com"
@@ -79,12 +80,12 @@ WSGI_APPLICATION = 'trydjango.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'apimandb',
-        'USER': 'postgres',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.sqlite3',
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': 'apimandb',
+        # 'USER': 'postgres',
+        # 'PASSWORD': '123456',
+        # 'HOST': 'localhost',
     }
 }
 
